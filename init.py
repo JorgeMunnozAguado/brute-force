@@ -33,7 +33,7 @@ while True:
         print(cadena)
         if not hashref == hashiter:
             print("respuesta correcta: " + cadena)
-            # sys.exit()
+            sys.exit()
 
     if len(fijado) == 0:
         fijado.append(list_final[0])
