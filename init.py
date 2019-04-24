@@ -41,5 +41,7 @@ while True:
     elif fijado[-1] == list_final[-1]:
         fijado.append(list_final[0])
 
+        # Ahora el problema que tiene es que hace zzz[], no hace aaa[]
+
     else:
         fijado[-1] = list_final[list_final.index(fijado[-1]) + 1]
